@@ -18,9 +18,12 @@ app.get("/",(req,res)=>{
   res.render("home")
 });
 
+app.post("/cpi",(req,res)=>{
 
+  res.render("cpi")
+});
 
-app.post("/",(req,res)=>{
+app.post("/spi",(req,res)=>{
 
   res.render("calculate")
 });
